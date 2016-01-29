@@ -35,7 +35,7 @@ setup(
     install_requires=['click'],
     entry_points={
         'console_scripts': [
-            '24hourvideo = twentyfourhourvideo.cli:main'
+            '24hourvideo = twentyfourhourvideo.cli:cli'
         ]
     }
 )
